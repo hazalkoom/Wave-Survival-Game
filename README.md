@@ -96,7 +96,7 @@ my-game/
   ```bash
   python -m http.server
 ### 📣 Credits
-Game Code: ** [Mohamed Ahmed](https://github.com/hazalkoom), ** [Yousef Mohamed](https://github.com/Yousefuwk20) 
+Game Code: [Mohamed Ahmed](https://github.com/hazalkoom), [Yousef Mohamed](https://github.com/Yousefuwk20) 
 
 Sounds: Pixabay, Freesound.org, or wherever you got them
 
