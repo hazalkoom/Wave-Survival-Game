@@ -68,4 +68,36 @@ All audio is loaded and triggered contextually through game events.
 ---
 
 ## 📁 Folder Structure
+my-game/
+├── index.html # HTML entry point
+├── game.js # Main game code (renamed from game (1).js)
+└── assets/ # All sound files (MP3s)
+├── ambient_loop.mp3
+├── boss_intro.mp3
+├── wave_start.mp3
+├── collect.mp3
+├── slash.mp3
+└── gunshot.mp3
 
+---
+
+## 🧪 How to Play the Game
+
+> ⚠️ Note: Some browsers block local MP3s due to security (CORS). Please use one of the following options to run the game correctly.
+
+### Option 1: Run via p5.js Web Editor (Easiest)
+1. Visit [https://editor.p5js.org](https://editor.p5js.org)
+2. Upload `game.js` and the `assets/` folder
+3. Click **Run** to start the game
+
+### Option 2: Use Local Server (for advanced users)
+- Install VS Code and Live Server extension
+- Or run this in terminal:
+  ```bash
+  python -m http.server
+### 📣 Credits
+Game Code: ** [Mohamed Ahmed](https://github.com/hazalkoom), ** [Yousef Mohamed](https://github.com/Yousefuwk20) 
+
+Sounds: Pixabay, Freesound.org, or wherever you got them
+
+Built using p5.js and p5.sound
