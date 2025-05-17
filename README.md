@@ -69,16 +69,7 @@ All audio is loaded and triggered contextually through game events.
 
 ## 📁 Folder Structure
 
-my-game/
-├── index.html          # HTML entry point
-├── game.js             # Main game code (renamed from game (1).js)
-└── assets/             # All sound files (MP3s)
-    ├── ambient_loop.mp3
-    ├── boss_intro.mp3
-    ├── wave_start.mp3
-    ├── collect.mp3
-    ├── slash.mp3
-    └── gunshot.mp3
+<pre> ``` my-game/ ├── index.html # HTML entry point ├── game.js # Main game code (renamed from game (1).js) └── assets/ # All sound files (MP3s) ├── ambient_loop.mp3 ├── boss_intro.mp3 ├── wave_start.mp3 ├── collect.mp3 ├── slash.mp3 └── gunshot.mp3 ``` </pre>
 
 
 ---
